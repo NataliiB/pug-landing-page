@@ -9,4 +9,56 @@ html(lang="en")
       include styles/normalize.css
   body
     include modules/header
+    section.main
+        .main-container
+          h1#main-title 
+            | Lorem ipsum dolor sit span
+            br 
+            span consectetur 
+            | adipisicing elit.
+            br 
+            span Ratione
+            | optio est 
+            span suscipit
+            | aut 
+            br 
+            | praesentium nemo.
+          .main-container-cases
+            .main-container__case 
+              strong  50% dolor sit amet
+              br 
+              | consectetur adipisicing 
+            .main-container__case 
+              strong 136 ipsum dolor 
+              br
+              | sitamet consec
+            .main-container__case 
+    
+              a(href="#") Просування 
+                img(src="images/arrow.png", alt="")
+                | бізнесу
+                
+            .main-container__case 
+              a(href="#") Формування
+                img(src="images/arrow.png", alt="")
+                | грантових заявок
+                
+            
+        .main-img  
+          img(src="images/man-removebg-preview.png", alt="")
+    section.options
+      h2 Додаткові опції, які допоможуть вам зростати
+      .options-container
+    section.news
+      h2 Новини: наші кейси
+      .news-container
+      section.team
+      h2 Наша команда
+      .team-container
+    section.reviews
+      h2 Відгуки
+      .reviews-recontainer
+    section.contact
+      h2 Звʼязатись з нами
+      .contact-container
     include modules/footer 
